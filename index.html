@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight and Exercise Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Weight and Exercise Tracker</h1>
+
+    <div class="container">
+        <h2>Log Weight</h2>
+        <input type="date" id="weight-date">
+        <input type="number" id="weight-input" placeholder="Enter your weight (kg)">
+        <button onclick="logWeight()">Log Weight</button>
+        <div id="weight-log"></div>
+    </div>
+
+    <div class="container">
+        <h2>Log Exercise</h2>
+        <input type="date" id="exercise-date">
+        <input type="text" id="exercise-name" placeholder="Exercise name">
+        <input type="number" id="exercise-duration" placeholder="Duration (minutes)">
+        <button onclick="logExercise()">Log Exercise</button>
+        <div id="exercise-log"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
